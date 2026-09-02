@@ -88,3 +88,4 @@ volumes:
   mysql_data:
   npm_data:
   npm_letsencrypt:
+  uptime-kuma-data:
