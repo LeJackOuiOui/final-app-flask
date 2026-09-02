@@ -79,7 +79,7 @@ services:
     ports:
       - "8080:8080"
     networks:
-      - red-cba
+      - appnet
 
 networks:
   appnet:
