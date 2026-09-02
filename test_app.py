@@ -1,6 +1,6 @@
-from sample_app import sample
+from app import app
 
 def test_home_status_200():
-    cliente = sample.test_client()
+    cliente = app.test_client()
     respuesta = cliente.get('/')
     assert respuesta.status_code == 200 # nosec B101
